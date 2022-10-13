@@ -1,6 +1,6 @@
 import CredentialsProvider from 'next-auth/providers/credentials'
 import { getFirestore } from 'firebase-admin/firestore'
-import connectFirestore from '../../../src/lib/connect'
+import connectFirestore from '../../../lib/firebase'
 import NextAuth from 'next-auth'
 import Moralis from 'moralis'
 

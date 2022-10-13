@@ -13,3 +13,13 @@ Polykisok is a virtual payment kiosk for in person merchants. Merchants can crea
 **NextJS** - Frontend platform and on demand serverless api functions.
 
 **Polygon** - Blockchain to deploy contract to and process payments.
+
+## Features
+
+Merchants - sign up and create kiosk store.
+
+Merchants - create products and meta data, tax, images, descriptions, price.
+
+Merchants - monitor payments as they come in using Firebase realtime updates.
+
+Serverless - query the current price of MATIC vs USD.
