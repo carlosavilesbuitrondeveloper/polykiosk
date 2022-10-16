@@ -10,7 +10,7 @@ export default function Home() {
 					<Col xs={24} lg={24} className='flex justify-center items-center flex-col'>
 						<AstroHome className='w-2/12' />
 						<h1 className='text-white text-6xl font-semibold heavy mt-3'>AstroKiosk</h1>
-						<p className='text-white mt-6 text-lg'>Instant Virtual Kiosks</p>
+						<p className='text-white mt-3 text-xl'>Instant Virtual Kiosks</p>
 					</Col>
 				</Row>
 			</Main>
