@@ -1,15 +1,18 @@
-import { Row, Col } from 'antd'
-import Main from '../src/components/main'
-import AstroHome from '../src/assets/astro-home-money'
-import Script from 'next/script'
+import HomeWrapper from '../src/components/homeWrapper'
 
 export default function Home() {
 	return (
-		<>
-			<Script id='modernizr' src='/scripts/modernizr.js' />
-			<Script id='modernizr' src='/scripts/jquery-1.11.3.min.js' />
-			<Script id='modernizr' src='/scripts/plugins.js' />
-			<Script id='modernizr' src='/scripts/scripts.js' />
-		</>
+		<HomeWrapper>
+			<header className='site-header'>
+				<h1 className='site-title mb-4'>
+					<img src='img/logo.png' width={100} height={60} alt='InTime' />
+				</h1>
+			</header>
+
+			<section className='content'>
+				<h1 className='main-phrase'>AstroKiosks</h1>
+				<p className='subtitle text-white'>Please enter your email below and we'll let you know once we're up and running.</p>
+			</section>
+		</HomeWrapper>
 	)
 }
