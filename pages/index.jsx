@@ -1,19 +1,15 @@
 import { Row, Col } from 'antd'
 import Main from '../src/components/main'
 import AstroHome from '../src/assets/astro-home-money'
+import Script from 'next/script'
 
 export default function Home() {
 	return (
 		<>
-			<Main>
-				<Row gutter={12} className='w-full'>
-					<Col xs={24} lg={24} className='flex justify-center items-center flex-col'>
-						<AstroHome className='w-2/12' />
-						<h1 className='text-white text-6xl font-semibold heavy mt-3'>AstroKiosk</h1>
-						<p className='text-white mt-3 text-xl'>Instant Virtual Kiosks</p>
-					</Col>
-				</Row>
-			</Main>
+			<Script id='modernizr' src='/scripts/modernizr.js' />
+			<Script id='modernizr' src='/scripts/jquery-1.11.3.min.js' />
+			<Script id='modernizr' src='/scripts/plugins.js' />
+			<Script id='modernizr' src='/scripts/scripts.js' />
 		</>
 	)
 }
